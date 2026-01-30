@@ -204,11 +204,27 @@
             <a href="mailto:leooperations.help@outlook.com">leooperations.help@outlook.com</a>
           </div>
 
-          <div><strong>Booking</strong><br />
-            <span class="muted">Add your Calendly link here</span>
-            <!-- Example:
-            <a href="https://calendly.com/YOURNAME/discovery" target="_blank" rel="noopener">Book a call</a>
-            -->
+        <form class="contact-form" action="https://formspree.io/f/xjgrekjo" method="POST">
+
+  <div class="field">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+  </div>
+
+  <div class="field">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+  </div>
+
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5"
+      placeholder="Tell me a bit about what you need help with…" required></textarea>
+  </div>
+
+  <button type="submit" class="btn">Send message</button>
+
+</form>
           </div>
         </div>
       </div>
