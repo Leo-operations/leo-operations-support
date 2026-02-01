@@ -225,3 +225,19 @@ body{
 
   box-shadow: 0 10px 30px rgba(11,15,20,.08);
 }
+.step-num{
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, var(--mint), var(--mint2));
+  color: var(--bg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 900;
+  font-size: 14px;
+  flex-shrink: 0;
+}
