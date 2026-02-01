@@ -202,8 +202,26 @@ body{
   padding:18px;
 }
 
-.steps{display:grid; gap:12px; margin-top:14px}
+.steps{
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
 .step{
-  display:flex; gap:12px;
-  background:var(--card);
-  border:1px solid
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+
+  background:
+    linear-gradient(180deg, rgba(34,211,166,.06), rgba(34,211,166,.02)),
+    #ffffff;
+
+  border: 1px solid rgba(34,211,166,.25);
+  border-left: 6px solid var(--mint);
+  border-radius: var(--radius);
+
+  padding: 18px 20px;
+
+  box-shadow: 0 10px 30px rgba(11,15,20,.08);
+}
