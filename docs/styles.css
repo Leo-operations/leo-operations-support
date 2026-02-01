@@ -84,9 +84,27 @@ body{
 }
 
 .btn:hover{transform:translateY(-1px)}
-.btn:active{transform:translateY(0)}
 .btn-ghost{background:transparent; color:var(--paper); border-color:rgba(255,255,255,.7); box-shadow:none}
-.btn-small{padding:10px 12px; font-size:14px; box-shadow:none; background:var(--ink); color:var(--paper)}
+.btn-small{
+  padding:10px 14px;
+  font-size:14px;
+  font-weight:800;
+  border-radius:14px;
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, var(--mint), var(--mint2));
+  color: var(--bg);
+  box-shadow: var(--shadow);
+}
+.btn-small:hover{
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+.btn-small:active{
+  filter: brightness(0.95);
+  transform: translateY(0);
+}
+
 
 .hero{
   background:
